@@ -62,12 +62,12 @@ function Instalar_NodeRed(){
     SALT=`echo ""`
     if [[ $var == 1 ]]
     then
-		echo"HOLA"
-	fi
-	if [[ $var == 0 ]]
+		echo 'HOLA'
+    fi
+    if [[ $var == 0 ]]
     then
-		echo"ADEU"
-	fi
+		echo 'ADEU'
+    fi
     echo -e "${SALT}${COLOR} Raspberry Actualitzada ${NORMAL}${SALT}${SALT}"
     sudo reboot
 }
