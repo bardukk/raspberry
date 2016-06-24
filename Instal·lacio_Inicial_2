@@ -26,7 +26,7 @@ ensenya_menu(){
     echo -e "${SALT}"
     echo -e "${SALT}"
     echo -e "${NUMBER}     1)${MENU} ACTUALITZAR RASPBERRY PI ${NORMAL}"
-    echo -e "${NUMBER}     2)${MENU} ACTUALITZAR KERNEL${NORMAL}"
+    echo -e "${NUMBER}     2)${MENU} INSTAL·LAR NODE-RED${NORMAL}"
     echo -e "${NUMBER}     3)${MENU} INSTAL·LAR DRIVERS TP-LINK ${NORMAL}"
     echo -e "${NUMBER}     4)${MENU} INSTAL·LAR MONO ${NORMAL}"
     echo -e "${NUMBER}     5)${MENU} INSTAL·LAR WIRINGPI ${NORMAL}"
@@ -103,8 +103,8 @@ while [ opt != '' ]
            ;;
 
         2) clear;
-           option_picked "Actualitzar Kernel";
-           Actualitzar_Kernel;
+           option_picked "Instal·lar Node-Red";
+           Instalar_NodeRed;
            sleep 10
            ;;
 
