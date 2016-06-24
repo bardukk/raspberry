@@ -1,7 +1,9 @@
 #!/bin/bash
 
 ensenya_menu(){
+    var=$(lsb_release -a )
     clear
+    echo var
     NORMAL=`echo "\033[m"`
     MENU=`echo "\033[36m"` #Blue
     NUMBER=`echo "\033[33m"` #yellow
