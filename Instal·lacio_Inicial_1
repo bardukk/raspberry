@@ -12,7 +12,6 @@ ensenya_menu(){
     		var=0;
     	fi
     fi
-    echo $var
     NORMAL=`echo "\033[m"`
     MENU=`echo "\033[36m"` #Blue
     NUMBER=`echo "\033[33m"` #yellow
